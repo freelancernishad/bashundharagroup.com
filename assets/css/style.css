@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #f2696f;
+}
+
+::selection {
+  color: white;
+  background: #f2696f;
+}
+body {
+    background: #eceded;
+}
+.fontColor {
+    color: #00000094;
+}
+header {
+    background: #333333;
+}
+.logo {
+    padding: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+input#navBar:checked ~ .mainNav {
+    display: block;
+}
+input#navBar {
+    display: none;
+}
+nav.mainNav {
+    display: none;
+}
+.navBar {
+    color: white;
+    font-size: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+ul.MenuList {
+    list-style: none;
+    padding: 0;
+    padding: 0px;
+    margin: 0;
+}
+
+li.menuItem a {
+    text-decoration: none;
+    padding: 3px 0px;
+    font-size: 18px;
+    display: block;
+    color: #eae0e0;
+}
+li.menuItem {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+li.menuItem:hover {
+    background: #6f6666;
+}
+li.menuItem a i {
+    /* font-size: 27px; */
+    padding: 5px;
+}
+.logo a {
+    display: block;
+}
+
+.logo {
+    padding: 16px;
+}
+li.menuItem {
+    padding: 0px 6px;
+}
+
+@media only screen and (min-width: 960px) {
+    .navBar {
+        display: none;
+    }
+    nav.mainNav {
+        display: block;
+    }
+    .mainHeader {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        /*  padding: 6px 0; */
+    }
+    ul.MenuList {
+        list-style: none;
+        padding: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0;
+    }
+
+    li.menuItem a {
+        text-decoration: none;
+        padding: 26px 0px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 18px;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+    li.menuItem:hover {
+        background: none;
+    }
+    li.menuItem a:hover {
+        background: none;
+        color: red;
+    }
+    li.menuItem a i {
+        /* font-size: 27px; */
+        padding: 5px;
+    }
+    .logo a {
+        display: block;
+    }
+
+    .logo {
+        padding: 16px;
+    }
+    li.menuItem {
+        padding: 0px 6px;
+    }
+	
+	.flexProtfolioContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.flexProtfolioItem {
+    width: 50%;
+    padding: 20px;
+}
+	.protfoliobutton {
+    display: flex;
+}
+.flexFooterwigetContainer {
+    display: flex;
+}
+.copywriteFlexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+/* sub menu */
+li#HoverThisMenu {
+    position: relative;
+}
+
+ul.subMenuList {
+    position: absolute;
+    background: #333333;
+    width: 200px;
+    list-style: none;
+    padding: 10px;
+    display: none;
+}
+
+li.subMenuItem {
+    padding: 0;
+}
+
+li.subMenuItem a {
+    padding: 6px 0px;
+    font-size: 15px;
+}
+
+li.subMenuItem a:hover {
+    color: #fb0000;
+}
+li#HoverThisMenu:hover .subMenuList {
+    display: block;
+	z-index: 1;
+}
+.slideshow.example-2.square1.slide_animation.fill_mode-cover.theme-dark.prev_next_nav-inside.dots_nav-inside.caption-outside {
+    height: 100vh !important;
+}
+
+
+.h1.mt-5 {
+	text-align:center;
+    position:relative;
+}
+.h1.mt-5:after {content: "";background: #b5a2a2;height: 1px;width: 100%;top: 50%;position: absolute;left: 0;z-index: -1;}
+
+span {}
+
+.h1.mt-5 span {
+    background: #eceded;
+    padding: 0px 24px;
+}
+
+
+.newsFlexItem {
+    margin: 15px;
+    width: 340px !important;
+}
+
+.newsImg img {
+    width: 100%;
+}
+.newsImg {
+    border: 7px solid white;
+    /* box-shadow: 1px 1px 1px black; */
+    position: relative;
+}
+
+.newsImg:before {
+    content: "";
+    height: 11px;
+    width: 179px;
+    position: absolute;
+    left: 4px;
+    bottom: -1px;
+    background: #242424;
+    transform: rotate(-3deg);
+    z-index: -1;
+    box-shadow: 2px 3px 5px 6px #0000008a;
+}.newsImg:after {
+    content: "";
+    height: 20px;
+    width: 155px;
+    position: absolute;
+    right: 4px;
+    bottom: -1px;
+    background: #242424;
+    transform: rotate(3deg);
+    z-index: -1;
+    box-shadow: 2px 3px 5px 6px #0000008a;
+}
+.newsImg img:hover {
+    filter: grayscale(1);
+}
+ol.flex-control-nav.flex-control-paging {
+    display: none !important;
+}
+li.flex-nav-prev {
+    position: absolute;
+    top: 50%;
+	left:-57px;
+    opacity: 0;
+	transition:0.5s;
+}li.flex-nav-next {
+	position: absolute;
+	top: 50%;
+    right: -57px;
+    opacity: 0;
+	transition:0.5s;
+}
+.flex-disabled {
+    display: none;
+}
+.flexslider.carousel:hover .flex-nav-next {
+    right: 0 !important;
+    opacity: 1 !important;
+}.flexslider.carousel:hover .flex-nav-prev {
+    left: 0 !important;
+    opacity: 1 !important;
+}.flexslider1.carousel:hover .flex-nav-next {
+    right: 0 !important;
+    opacity: 1 !important;
+}.flexslider1.carousel:hover .flex-nav-prev {
+    left: 0 !important;
+    opacity: 1 !important;
+}
+ul.flex-direction-nav {
+    list-style: none;
+}
+
+ul.flex-direction-nav li a {
+    padding: 9px;
+    background: #ff000099;
+    font-size: 26px;
+    color: white;
+}
+.flex-pauseplay {
+    display: none;
+}
+a.readAll {
+    background: #dc3545;
+    color: white;
+    padding: 16px 43px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.linkForRealAll {
+    text-align: center;
+}
+.linkForRealAll {
+    width: 265px;
+    /* text-align: center; */
+    transition: all 0.5s;
+    margin: auto;
+}
+
+.linkForRealAll:hover {
+    transform: scale(1.3);
+}
+
+
+iframe {
+    height: 100%;
+}
+a.Download {
+    background: #6c757d;
+    color: white;
+    padding: 16px 43px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.linkForRealMORE {
+    margin: 3px;
+	transition: all 0.3s;
+	margin-top: 36px;
+}
+
+.linkForRealMORE:hover {
+    transform: scale(1.2);
+}
+.protfoliobutton {
+    
+    margin-top: 30px;
+}
+.protfolioHeader {
+    color: #dc3545;
+}
+section.brandLogoSection {
+    background: #ffffff91;
+}
+
+
+/* Footer */
+.footerfontColor {
+    color: #ffffffad;
+}
+.footerWigetaddress ul {
+    list-style: none;
+}
+footer.footer.mt-7 {
+    background: #333333;
+}
+.footerWigetaddress ul li {
+    color: #ffffff52;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 3px 0px;
+}
+h2.footerfontColor {
+    border-bottom: 1px solid #7d7070;
+    display: table;
+    line-height: 56px;
+}
+h2.footerfontColor {
+    border-bottom: 1px solid #7d7070;
+    display: table;
+    line-height: 56px;
+    position: relative;
+	font-size: 22px;
+}
+
+h2.footerfontColor:after {content: "";background: #9a0000;bottom: -1px;left: 0;height: 3px;width: 60px;position: absolute;}
+.flexFooterwigetItem {
+    padding: 22px 17px;
+}
+.copywriteFlexItem ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 194px;
+    margin: auto;
+}
+.copywriteFlexItem span {
+    color: #bdbdbd;
+	margin-top: 9px;
+}
+.copywriteFlexItem ul li {
+    border: 1px solid #333333;
+    /* flex: 1 0 auto; */
+    text-align: center;
+    padding: 0;
+    margin: 2px;
+    background: #2d2929;
+}
+
+.copywriteFlexItem ul li a {
+    display: block;
+    border: .125rem solid #222;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #504b4b;
+    outline: 0 solid;
+    width: 2rem;
+    height: 2rem;
+    margin: .212rem;
+    transition: all .3s ease-out;
+    box-shadow: 0 0.25em 0.25em rgb(0 0 0 / 30%);
+    line-height: 1.77rem;
+    color: #eee;
+}
+.copywriteFlexItem ul li a:hover {
+    border-color: #fff;
+    transform: scale(1.2);
+    box-shadow: 0 0.5em 0.5em rgb(0 0 0 / 40%);
+    outline: 0 solid;
+    animation: pressed-social .3s ease-out;
+    color: #fff;
+}
+.copywriteFlexItem {
+    text-align: center;
+	
+}
+.copywritesection {
+    background: #292727;
+    padding: 26px 0;
+	    
+}
+.develop.copywriteFlexItem {
+    margin: auto;
+    padding: 10px;
+    font-size: 19px;
+}

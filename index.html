@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/square1.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/c42e809f4e.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="mainHeader">
+                    <div class="logo">
+                        <a href="#"><img src="assets/img/download.png" alt="" /></a> <label class="navBar" for="navBar"><i class="fas fa-bars"></i></label>
+                    </div>
+
+                    <input type="checkbox" id="navBar" />
+                    <nav class="mainNav">
+                        <ul class="MenuList">
+                            <li class="menuItem">
+                                <a href="#"><i class="fas fa-home"></i></a>
+                            </li>
+                            <li class="menuItem" id="HoverThisMenu">
+                                <a href="#">About Us</a>
+                                <ul class="subMenuList">
+                                    <li class="subMenuItem"><a href="#">Corporate Profile</a></li>
+                                    <li class="subMenuItem"><a href="#">Mission Vision & Values</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuItem" id="HoverThisMenu">
+                                <a href="#">Messages</a>
+                                <ul class="subMenuList">
+                                    <li class="subMenuItem"><a href="#">Chairman's Message</a></li>
+                                    <li class="subMenuItem"><a href="#">Chairman's Life & Work</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuItem" id="HoverThisMenu">
+                                <a href="#">Enterprise</a>
+                                <ul class="subMenuList">
+                                    <li class="subMenuItem"><a href="#">Real Estate</a></li>
+                                    <li class="subMenuItem"><a href="#">Cement Sector</a></li>
+                                    <li class="subMenuItem"><a href="#">Paper Sector</a></li>
+                                    <li class="subMenuItem"><a href="#">Energy Sector</a></li>
+                                    <li class="subMenuItem"><a href="#">Food & Beverage</a></li>
+                                    <li class="subMenuItem"><a href="#">Bashundhara Airways</a></li>
+                                    <li class="subMenuItem"><a href="#">Restaurant Chains</a></li>
+                                    <li class="subMenuItem"><a href="#">Services Sector</a></li>
+                                    <li class="subMenuItem"><a href="#">Shipping / Logistic</a></li>
+                                    <li class="subMenuItem"><a href="#">Technology</a></li>
+                                    <li class="subMenuItem"><a href="#">Entertainment</a></li>
+                                    <li class="subMenuItem"><a href="#">Media Sector</a></li>
+                                    <li class="subMenuItem"><a href="#">Sports</a></li>
+                                    <li class="subMenuItem"><a href="#">CSR</a></li>
+                                    <li class="subMenuItem"><a href="#">Import-Export</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuItem" id="HoverThisMenu">
+                                <a href="#">Media</a>
+                                <ul class="subMenuList">
+                                    <li class="subMenuItem"><a href="#">News</a></li>
+                                    <li class="subMenuItem"><a href="#">Photos</a></li>
+                                    <li class="subMenuItem"><a href="#">Videos</a></li>
+                                    <li class="subMenuItem"><a href="#">Facebook</a></li>
+                                    <li class="subMenuItem"><a href="#">Youtube</a></li>
+                                    <li class="subMenuItem"><a href="#">Linkedin</a></li>
+                                </ul>
+                            </li>
+                            <li class="menuItem"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="middleContent">
+            <div class="slideshow example-2">
+                <img src="https://wowslider.net/local-sliders/demo-10/data1/images/road220058.jpg" alt="Image 1 from http://jqueryscript.net/" />
+                <img src="https://wowslider.com/sliders/demo-77/data1/images/field175959_1920.jpg" alt="Image 2 from http://jqueryscript.net/" />
+                <img src="https://www.metaslider.com/content/uploads/2014/11/mountains1.jpg" alt="Image 3 from http://jqueryscript.net/" />
+            </div>
+
+            <script src="assets/js/square1.js"></script>
+            <script>
+                $(".example-1").square1({ caption: "none", theme: "light" });
+                $(".example-2").square1({ animation: "slide" });
+            </script>
+
+            <div class="container">
+                <div class="h1 mt-5"><span>LATEST NEWS</span></div>
+
+                <div class="flexslider carousel">
+                    <ul class="slides">
+					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                        					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                        					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                        					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                        					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                        					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                        					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                        					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                                                					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                                                					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                                                					
+                        <li class="">
+                          <div class="newsImg"><img src="http://www.bashundharagroup.com/assets/upload/cover/cover_1610945607.jpg" alt="" /></div>
+                        <div class="newsHead mt-5"><h3 class="fontColor">Bashundhara Group sets up country’s biggest petrochemi…</h3></div>
+                        <div class="newsdate fontColor">January 16, 2021</div>
+                        <div class="newsdec fontColor">A syndication meeting for raising a fund of Tk 7457.75 crore under syndication arrangements to …</div>
+                        </li>
+                        
+                    </ul>
+					
+					
+					
+                </div>
+				<div class="linkForRealAll">
+<a class="readAll" href="#">READ ALL NEWS</a>
+</div>
+               
+				
+				
+				<div class="flexProtfolioContainer">
+					<div class="flexProtfolioItem">
+					
+					<div class="protfolioHeader"><h1>Bashundhara Group</h1></div>
+					<div class="protfolioSubHeader fontColor"><h5>For the People, for the Country</h5></div>
+					<div class="protfoliodec fontColor">The Bashundhara Group has started operation as a real estate venture known as "Bashundhara" under the aegis of the group's first concern - the East-West Property Development (Pvt) Ltd in 1987. This project turned out to be a very successful one and had helped faster the growth of…</div>
+					<div class="protfoliobutton">
+						<div class="linkForRealMORE">
+						<a class="readAll" href="#">READ MORE</a>
+						</div>
+						<div class="linkForRealMORE">
+						<a class="Download" href="#">Download Corporate Profile</a>
+						</div>
+					
+					</div>
+					
+					</div>
+					<div class="flexProtfolioItem"><iframe width="100%" src="https://www.youtube.com/embed/JLm5YtS9H3M?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" frameborder="0" allowfullscreen=""></iframe></div>
+				
+				</div>
+				 </div>
+				 <section class="brandLogoSection">
+				 <div class="container">
+				  <div class="flexslider1 carousel mt-5">
+                    <ul class="slides">
+					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525513764.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525511086.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525508982.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525513506.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525686548.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525686482.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525684486.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525684400.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525684296.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525684177.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525684061.png" alt="" />
+                        </li>
+                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525683191.png" alt="" />
+                        </li>
+                                                					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525515255.png" alt="" />
+                        </li>
+                                                					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525514190.png" alt="" />
+                        </li>
+                                                					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525514118.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525514031.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525513917.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525513275.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525512929.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1525511321.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1522230789.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1522230769.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1522230749.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1522230727.png" alt="" />
+                        </li>
+                                                                        					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1522230703.png" alt="" />
+                        </li>
+                                                                                                					
+                        <li class="">
+                          <img src="http://www.bashundharagroup.com/assets/upload/small/small_1522230679.png" alt="" />
+                        </li>
+                        					
+                       
+                        
+                    </ul>
+					
+					
+					
+                </div>
+                </div>
+				
+				</section>
+				
+				
+				
+           
+			
+        </section>
+		
+		<footer class="footer mt-7">
+		<div class="container">
+			<div class="flexFooterwigetContainer">
+			
+				<div class="flexFooterwigetItem">
+				<div class="footerWigetHeader"><h2 class="footerfontColor">Freelancer Nishad</h2></div>
+				<div class="footerWigetaddress">
+				<ul>
+				<li><i class="fas fa-map-marker"></i>&nbsp;&nbsp;<span>Baneshorpara,Tepriganj,Debiganj,Panchagarh</span></li>
+				<li><i class="fas fa-phone"></i>&nbsp;&nbsp;<span>+8801909756552</span></li>
+				<li><i class="fas fa-fax"></i></i>&nbsp;&nbsp;<span>+8801787984353</span></li>
+				<li><i class="fas fa-envelope"></i>&nbsp;&nbsp;<span>freelancernishad123@gmail.com</span></li>
+				</ul>
+				</div>
+				</div>
+					
+				<div class="flexFooterwigetItem">
+				<div class="footerWigetHeader"><h2 class="footerfontColor">Industrial Headquarters 1</h2></div>
+				<div class="footerWigetaddress">
+				<ul>
+				<li><i class="fas fa-map-marker"></i>&nbsp;&nbsp;<span>Plot# 3, Block# G Umme Kulsum Road, Bashundhara R/A, Dhaka-1229</span></li>
+				<li><i class="fas fa-phone"></i>&nbsp;&nbsp;<span>+880 2 8431024-8</span></li>
+
+				<li><i class="fas fa-envelope"></i>&nbsp;&nbsp;<span>info@bg.com.bd</span></li>
+				</ul>
+				</div>
+				</div>
+					
+				<div class="flexFooterwigetItem">
+				<div class="footerWigetHeader"><h2 class="footerfontColor">Industrial Headquarters 2</h2></div>
+				<div class="footerWigetaddress">
+				<ul>
+				<li><i class="fas fa-map-marker"></i>&nbsp;&nbsp;<span>Plot # 125/A, Block# A, Bashundhara R/A, Road No - 2 Baridhara, Dhaka-1229</span></li>
+				<li><i class="fas fa-phone"></i>&nbsp;&nbsp;<span>+880 2 8431256-8</span></li>
+				<li><i class="fas fa-envelope"></i>&nbsp;&nbsp;<span>info@bg.com.bd</span></li>
+				</ul>
+				</div>
+				</div>
+		
+			
+			</div>
+		
+		</div>
+		<div class="copywritesection">
+		<div class="container">
+			<div class="copywriteFlexContainer">
+			<div class="copywriteFlexItem"><span>BASHUNDHARA GROUP © 2018 / ALL RIGHTS RESERVED.</span></div>
+			<div class="copywriteFlexItem">
+			<ul>
+				<li><a href="#" class="fab fa-facebook"></a></li>
+				<li><a href="#" class="fab fa-youtube"></a></li>
+				<li><a href="#" class="fab fa-linkedin"></a></li>
+				<li><a href="#" class="fab fa-twitter"></a></li>
+			</ul>
+			
+			
+			</div>
+			
+			
+			</div>
+		
+		</div>
+		
+		
+		</div>
+		
+		
+		<div class="developsection">
+		<div class="container">
+			<div class="develop copywriteFlexContainer">
+			<div class="develop copywriteFlexItem"><span>Developed by Freelancer Nishad.</span></div>
+			</div>
+		
+		</div>
+		
+		
+		</div>
+		
+		
+		</footer>
+		
+		
+		
+		
+		
+		
+		
+		 <!-- jQuery -->
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+                <!-- FlexSlider -->
+                <script defer src="assets/js/jquery.flexslider.js"></script>
+
+                <script type="text/javascript">
+          
+                    $(window).load(function () {
+                        $(".flexslider").flexslider({
+                            animation: "slide",
+                            animationLoop: false,
+                            itemWidth: 355,
+                            itemMargin: 20,
+                            pausePlay: true,
+                            start: function (slider) {
+                                $("body").removeClass("loading");
+                            },
+                        });
+                    });          
+                    $(window).load(function () {
+                        $(".flexslider1").flexslider({
+                            animation: "slide",
+                            animationLoop: false,
+                            itemWidth: 174,
+                            itemMargin: 20,
+                            pausePlay: true,
+                            start: function (slider) {
+                                $("body").removeClass("loading");
+                            },
+                        });
+                    });
+                </script>
+
+				
+    </body>
+</html>
