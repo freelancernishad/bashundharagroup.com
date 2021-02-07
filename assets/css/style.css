@@ -567,3 +567,7 @@ h2.footerfontColor:after {
     padding: 10px;
     font-size: 19px;
 }
+.square1_dots{
+	z-index:1 !important;
+	
+}
